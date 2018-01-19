@@ -20,7 +20,5 @@
     "url": "https://github.com/yorkie/node-ifconfig-parser/issues"
   },
   "homepage": "https://github.com/yorkie/node-ifconfig-parser",
-  "dependencies": {
-    "buffer-extend": "0.0.1"
-  }
+  "dependencies": {}
 }
