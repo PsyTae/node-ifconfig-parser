@@ -12,5 +12,13 @@ $ npm install ifconfig-parser
 
 * `.parse(src)`: parsing source
 
+```javascript
+const i = require("ifconfig-json-parser");
+const fs = require("fs");
+
+file = fs.readFileSync("./ex.ifconfig", "utf8");
+console.log(i.parse(file));
+```
+
 ### License
 MIT
