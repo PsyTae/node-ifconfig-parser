@@ -1,5 +1,5 @@
 {
-  "name": "ifconfig-parser",
+  "name": "ifconfig-json-parser",
   "version": "0.0.1",
   "description": "ifconfig text parser",
   "main": "index.js",
