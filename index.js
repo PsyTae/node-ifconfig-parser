@@ -43,7 +43,7 @@ function parse(src) {
 
   blocks.forEach(function(block) {
     var firstline = block[0].toString();
-    var coionIdx = firstline.indexOf(":");
+    var coionIdx = firstline.indexOf(": "); // With space to support interface aliases ex. eth0:0
     var name = firstline.slice(0, coionIdx);
     var conf = block.slice(1);
     var flagsline = firstline.slice(coionIdx + 1).trim();
